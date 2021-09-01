@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void){
+    int x, y, z, w, s, num;
+
+    scanf("%d", &num);
+
+    if (num < 10){
+        printf("%d\n", num);
+        return 0;
+    }
+
+    for(x = s = 0, z = 1, y = num - (num % z); 
+       x < ((num < 100) ? 2 : 
+       (num > 100 && num < 1000) ? 3 : 4); ++x){
+
+        w = (y / z % 10);
+        z *= 10;
+        y -= (y % z);
+        s += w;
+    }
+
+    printf("%d", s);
+    return 0;
+}

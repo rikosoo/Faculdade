@@ -1,0 +1,23 @@
+ int a,m,D ;
+
+int main(){
+
+ 
+
+ printf("Escreva sua idade (somente em anos) ");
+
+  scanf(a);
+
+ printf("Escreva sua idade (somente em meses) ");
+
+  scanf(m);
+
+  printf("Escreva (sua idade somente em dias) ");
+
+  scanf(D);
+
+  D<-(D+(a*365)+(m*30));
+
+ printf("Sua idade em dias é: ",D);
+
+}

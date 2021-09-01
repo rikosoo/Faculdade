@@ -1,0 +1,14 @@
+var
+segundos, minutos, horas, totalSegundos, sobraHoras, sobraMinutos: inteiro
+
+inicio
+printf ("***Calcular Tempo de Evento***")
+printf ("Informe o tempo em segundos -")
+scanf (totalSegundos)
+horas <- totalSegundos div 3600
+sobraHoras <-totalSegundos - (horas * 3600)
+minutos <- sobraHoras div 60
+segundos <- sobraHoras - (minutos * 60)
+printf ("Tempo do Evento: ", horas, "h", minutos, "min", segundos, "seg")
+
+system("PAUSE");

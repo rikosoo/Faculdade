@@ -1,0 +1,12 @@
+#include<stdio.h>   //Biblioteca para entrada e  saída de dados
+main()
+{
+    float raio=0,volume=0;       //Declarando as variáveis de tipo float
+    printf("**ESTE PROGRAMA MOSTRA O VOLUME DE UMA ESFERA DE ACORDO COM O RAIO**\n\n");
+    printf("Digite o valor do RAIO: ");
+    scanf("%f",&raio);     //Armazenadoo valor na variavel raio
+    volume=4*3.14*raio*raio*raio/3;      //Calculando o volume da esfera
+    printf("\nO volume da esfera e: %.4f\n\n",volume);  //Exibindo o valor do volume
+  
+    system("pause");
+}
